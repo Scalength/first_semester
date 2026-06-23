@@ -6,7 +6,7 @@ class Tindahan {
         Scanner scanner = new Scanner(System.in);
         ArrayList<String> binili = new ArrayList<>();
 
-        System.out.println("Ano pa ngalan mo iho? ");
+        System.out.println("Ano pangalan mo iho? ");
         String pangalan = scanner.nextLine();
 
         while (true) {
