@@ -1,16 +1,32 @@
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * table items = 
+ * {
+ * soda = 60,
+ * rice(kg) = 99,
+ * chicken breast = 50,
+ * veggies = 99,
+ * fries = 32,
+ *
+ *
+ */
+
 public class HardcodedDictionaryExample {
 
-    public void AddItem() {
+    public int AddTax(sum) {
+        return sum * 1.12;
+    }
+
+    public void AddItem(item) {
+        
+    }
+
+    public void RemoveItem(item)) {
 
     }
 
-    public void RemoveItem() {
-
-    }
-a
     public static void main(String[] args) {
         // Mutable hardcoded dictionary
         Map<String, String> dictionary = new HashMap<>() {{
