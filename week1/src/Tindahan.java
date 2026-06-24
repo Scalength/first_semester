@@ -1,9 +1,19 @@
+/**
+ *  Hi sir, this is a WIP cash register system I tried drafting.
+ *  I am still not yet used to java syntax so bear with it ^^
+ * 
+ * TODO LIST:
+ * Make the dictionary work;
+ * Add methods; e.g. AddItem, RemoveItem, ListItem, AddVAT
+ * Learn HashMap, Map, and other data structures;
+ */
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-class Tindahan {
+public class Tindahan {
     Map<String, Integer> cash_register = new HashMap<>();
     
     public static void main(String[] args) {
