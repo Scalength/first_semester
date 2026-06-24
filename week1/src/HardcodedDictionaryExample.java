@@ -19,11 +19,13 @@ public class HardcodedDictionaryExample {
         return sum * 1.12;
     }
 
-    public void AddItem(item) {
-        
+    public void AddItem(item, price) {
+        put(item, price)
     }
 
-    public void RemoveItem(item)) {
+    public void RemoveItem(item) {
+        remove(item);
+    }
 
     }
 

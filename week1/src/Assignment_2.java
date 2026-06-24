@@ -12,7 +12,10 @@ class Tindahan {
         ArrayList<String> binili = new ArrayList<>();
         Tindahan tindahan = new Tindahan();
 
-        tindahan.foo();
+        String item = "";
+        int price = 0;
+
+        tindahan.AddItem(item, price);
 
         System.out.println("Ano pangalan mo iho? ");
         String pangalan = scanner.nextLine();
@@ -29,8 +32,8 @@ class Tindahan {
         scanner.close();
     }
 
-    public void foo() {
-        cash_register.put("Tite", 5 );
-        System.out.println(cash_register.get("Tite"));
+    public void AddItem(String item, int price) {
+        cash_register.put(item, price);
+        System.out.println(cash_register.get(item));
     }
 }
