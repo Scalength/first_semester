@@ -25,6 +25,7 @@ class Tindahan {
             String paninda = scanner.nextLine();
             binili.add(paninda);
             if (paninda.equalsIgnoreCase("exit")) {
+                binili.remove("exit");
                 break;
             }
         }
