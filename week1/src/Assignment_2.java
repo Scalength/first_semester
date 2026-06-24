@@ -1,7 +1,8 @@
 import java.util.Scanner;
 import java.util.ArrayList;
+import java.util
 
-class Tindahan { 
+class Tindahan {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         ArrayList<String> binili = new ArrayList<>();
