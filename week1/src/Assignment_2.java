@@ -3,7 +3,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-
 class Tindahan {
     Map<String, Integer> cash_register = new HashMap<>();
     
